@@ -219,7 +219,6 @@ public class HelloController implements Observer {
             }
 
             if (egg.getLayoutY() > 736 && lifes > 0) {
-                //int aleatorio = first_random.nextInt((750-50+1) + 200);
                 int aleatorio = first_random.nextInt((827));
                 this.egg_flag = false;
                 this.huevo.setStatus(true);
