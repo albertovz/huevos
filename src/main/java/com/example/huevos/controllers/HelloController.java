@@ -229,7 +229,6 @@ public class HelloController implements Observer {
                 media_player_menu = new MediaPlayer(path_gallina_soundtrack);
                 media_player_menu.play();
                 lifes--;
-                System.out.println(egg.getLayoutX() + "     " + egg.getLayoutY());
             }
             if (lifes==0 && !restart) {
                 media_player_soundtrack.stop();
