@@ -70,9 +70,6 @@ public class HelloController implements Observer {
     private Label final_score, score;
 
     @FXML
-    private AnchorPane rootScene;
-
-    @FXML
     void btnEmpezarOnMouse(MouseEvent event) {
         score.setVisible(true);
         media_player_menu.stop();
