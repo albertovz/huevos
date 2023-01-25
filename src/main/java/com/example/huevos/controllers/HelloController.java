@@ -178,7 +178,6 @@ public class HelloController implements Observer {
         gallina.setPosicion(new Vector(1, 100, 554));
         gallina.addObserver(this);
         new Thread(gallina).start();
-
     }
 
     @Override
