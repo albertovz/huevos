@@ -230,6 +230,7 @@ public class HelloController implements Observer {
                 media_player_menu.play();
                 lifes--;
             }
+
             if (lifes==0 && !restart) {
                 media_player_soundtrack.stop();
                 game_over.setImage(new Image(game_over_menu));
