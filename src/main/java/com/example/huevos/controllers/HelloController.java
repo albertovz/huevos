@@ -114,7 +114,6 @@ public class HelloController implements Observer {
     @FXML
     void characterOnKeyPressed(KeyEvent event) {
 
-
         if (event.getCode() == KeyCode.A) {
             if (character.getLayoutX() < 11 ) {
                 character.setLayoutX(character.getLayoutX());
