@@ -14,7 +14,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.util.Duration;
@@ -23,7 +22,7 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.Random;
 
-public class HelloController implements Observer {
+public class GameController implements Observer {
     MediaPlayer media_player_soundtrack;
     MediaPlayer media_player_menu;
     String game_over_menu = "C:\\Users\\crash\\IdeaProjects\\huevos\\src\\main\\resources\\assets\\imgs\\gameOver.gif";

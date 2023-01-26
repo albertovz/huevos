@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="rootScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#characterOnKeyPressed" prefHeight="712.0" prefWidth="956.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.huevos.controllers.HelloController">
+<AnchorPane fx:id="rootScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#characterOnKeyPressed" prefHeight="712.0" prefWidth="956.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.huevos.controllers.GameController">
    <children>
       <ImageView fitHeight="736.0" fitWidth="973.0" layoutX="-5.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
          <image>
